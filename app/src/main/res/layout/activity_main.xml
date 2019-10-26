@@ -12,10 +12,9 @@
     tools:ignore="MissingConstraints">
 
     <androidx.recyclerview.widget.RecyclerView
-        tools:listitem="@layout/item_cardview"
         android:layout_width="match_parent"
-
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_cardview">
     </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
